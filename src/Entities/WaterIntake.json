@@ -1,0 +1,22 @@
+{
+  "name": "WaterIntake",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "amount": {
+      "type": "number",
+      "description": "Amount in ml"
+    },
+    "time": {
+      "type": "string",
+      "description": "Time when water was consumed"
+    }
+  },
+  "required": [
+    "date",
+    "amount"
+  ]
+}
