@@ -1,0 +1,62 @@
+{
+  "name": "MealPlan",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "meal_type": {
+      "type": "string",
+      "enum": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snack"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "description": "Name of the meal"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the meal"
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "instructions": {
+      "type": "string",
+      "description": "Cooking/preparation instructions"
+    },
+    "prep_time": {
+      "type": "number",
+      "description": "Preparation time in minutes"
+    },
+    "estimated_calories": {
+      "type": "number"
+    },
+    "estimated_protein": {
+      "type": "number"
+    },
+    "estimated_carbs": {
+      "type": "number"
+    },
+    "estimated_fat": {
+      "type": "number"
+    },
+    "ai_generated": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "date",
+    "meal_type",
+    "title"
+  ]
+}
