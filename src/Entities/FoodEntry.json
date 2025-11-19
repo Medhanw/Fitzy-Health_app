@@ -1,0 +1,64 @@
+{
+  "name": "FoodEntry",
+  "type": "object",
+  "properties": {
+    "meal_type": {
+      "type": "string",
+      "enum": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snack"
+      ]
+    },
+    "food_name": {
+      "type": "string",
+      "description": "Name of the food item"
+    },
+    "quantity": {
+      "type": "number",
+      "description": "Amount consumed"
+    },
+    "unit": {
+      "type": "string",
+      "enum": [
+        "grams",
+        "cups",
+        "pieces",
+        "servings",
+        "ml"
+      ],
+      "default": "grams"
+    },
+    "calories": {
+      "type": "number",
+      "description": "Calories per serving"
+    },
+    "protein": {
+      "type": "number",
+      "description": "Protein in grams"
+    },
+    "carbs": {
+      "type": "number",
+      "description": "Carbohydrates in grams"
+    },
+    "fat": {
+      "type": "number",
+      "description": "Fat in grams"
+    },
+    "fiber": {
+      "type": "number",
+      "description": "Fiber in grams"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date when food was consumed"
+    }
+  },
+  "required": [
+    "meal_type",
+    "food_name",
+    "date"
+  ]
+}
