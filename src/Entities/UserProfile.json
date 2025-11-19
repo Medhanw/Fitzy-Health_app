@@ -1,0 +1,94 @@
+{
+  "name": "UserProfile",
+  "type": "object",
+  "properties": {
+    "age": {
+      "type": "number",
+      "description": "User's age"
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "male",
+        "female",
+        "other"
+      ],
+      "description": "User's gender"
+    },
+    "height": {
+      "type": "number",
+      "description": "Height in centimeters"
+    },
+    "weight": {
+      "type": "number",
+      "description": "Current weight in kilograms"
+    },
+    "goal_weight": {
+      "type": "number",
+      "description": "Target weight in kilograms"
+    },
+    "activity_level": {
+      "type": "string",
+      "enum": [
+        "sedentary",
+        "light",
+        "moderate",
+        "active",
+        "very_active"
+      ],
+      "description": "Daily activity level"
+    },
+    "goal": {
+      "type": "string",
+      "enum": [
+        "lose_weight",
+        "gain_weight",
+        "maintain_weight",
+        "build_muscle",
+        "improve_health"
+      ],
+      "description": "Primary health goal"
+    },
+    "dietary_preferences": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "vegetarian",
+          "vegan",
+          "gluten_free",
+          "dairy_free",
+          "keto",
+          "mediterranean",
+          "paleo",
+          "none"
+        ]
+      },
+      "description": "Dietary restrictions and preferences"
+    },
+    "allergies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Food allergies and intolerances"
+    },
+    "daily_calorie_goal": {
+      "type": "number",
+      "description": "Calculated daily calorie target"
+    },
+    "daily_protein_goal": {
+      "type": "number",
+      "description": "Daily protein target in grams"
+    },
+    "daily_carbs_goal": {
+      "type": "number",
+      "description": "Daily carbohydrates target in grams"
+    },
+    "daily_fat_goal": {
+      "type": "number",
+      "description": "Daily fat target in grams"
+    }
+  },
+  "required": []
+}
