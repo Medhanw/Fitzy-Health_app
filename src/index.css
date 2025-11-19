@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * NOTE: The conflicting 'display: flex' and centering styles 
+ * from the default template MUST be removed to allow your 
+ * full-page sidebar layout to render correctly.
+ */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensures the body is full height */
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
