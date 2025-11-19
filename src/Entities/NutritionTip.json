@@ -1,0 +1,45 @@
+{
+  "name": "NutritionTip",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the nutrition tip"
+    },
+    "content": {
+      "type": "string",
+      "description": "Main content of the tip"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "general",
+        "weight_loss",
+        "muscle_gain",
+        "heart_health",
+        "digestion",
+        "energy",
+        "hydration"
+      ],
+      "description": "Category of the nutrition tip"
+    },
+    "difficulty_level": {
+      "type": "string",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "description": "Difficulty level to implement"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Optional image URL for the tip"
+    }
+  },
+  "required": [
+    "title",
+    "content",
+    "category"
+  ]
+}
