@@ -1,12 +1,122 @@
-# React + Vite
+# Fitzy – AI-Powered Diet Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+Fitzy is a health-focused web application designed to help users understand their fitness condition through BMI and BMR analysis. The application provides personalized diet recommendations and nutrition guidance based on user inputs and calculated health metrics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project focuses on creating an interactive and user-friendly experience for users interested in improving their health and lifestyle.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- BMI (Body Mass Index) Calculation
+- BMR (Basal Metabolic Rate) Analysis
+- Personalized Diet Recommendations
+- Responsive User Interface
+- Interactive Health Tracking Experience
+- Mobile-Friendly Design
+- Fast and Smooth User Experience
+
+---
+
+## Technologies Used
+
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+- Git & GitHub
+
+---
+
+## Project Working
+
+1. User enters personal health information such as weight, height, age, and gender.
+2. The application calculates BMI and BMR values using standard health formulas.
+3. Based on the calculated results, the system generates personalized diet and nutrition recommendations.
+4. Results are displayed through an interactive and responsive user interface.
+
+---
+
+## Screenshots
+
+### Home Page
+(Add screenshot here)
+
+### BMI & BMR Analysis
+(Add screenshot here)
+
+### Diet Recommendation Section
+(Add screenshot here)
+
+---
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Medhanw/Fitzy-Health_app.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Fitzy-Health_app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Future Enhancements
+
+- AI-based Meal Recommendation System
+- User Authentication and Login
+- Daily Calorie Tracking
+- Fitness Progress Dashboard
+- Integration with Health APIs
+- Personalized Workout Suggestions
+- Cloud Database Integration
+
+---
+
+## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Frontend Development using React.js
+- Responsive UI Design
+- Health Data Analysis Logic
+- Component-Based Architecture
+- State Management
+- GitHub Project Management
+
+---
+
+## Project Repository
+
+GitHub Repository:
+https://github.com/Medhanw/Fitzy-Health_app
+
+---
+
+## Author
+
+Medha Wadekar  
+Computer Science Student | AI & Data Analytics Enthusiast
+
+```
