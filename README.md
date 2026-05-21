@@ -41,19 +41,6 @@ The project focuses on creating an interactive and user-friendly experience for 
 
 ---
 
-## Screenshots
-
-### Home Page
-(Add screenshot here)
-
-### BMI & BMR Analysis
-(Add screenshot here)
-
-### Diet Recommendation Section
-(Add screenshot here)
-
----
-
 ## Installation and Setup
 
 Clone the repository:
